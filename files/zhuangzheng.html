@@ -7,21 +7,16 @@
     <body>
         <h1>新增转正</h1>
         <h2>请输入以下信息</h2>
-        导师班级：<input type="text" placeholder="请输入导师班级">
+        导师班级：<input type="text" placeholder="请输入导师班级" id="zhuangzheng_daoshi_class">
         <br>
-        导师姓名：<input type="text" placeholder="请输入导师姓名">
+        导师姓名：<input type="text" placeholder="请输入导师姓名" id="zhuangzheng_daoshi_name">
         <br>
-        实习班级：<input type="text" placeholder="请输入实习班级">
+        实习班级：<input type="text" placeholder="请输入实习班级" id="zhuangzheng_shixi_class">
         <br>
-        实习姓名：<input type="text" placeholder="请输入实习姓名">
+        实习姓名：<input type="text" placeholder="请输入实习姓名" id="zhuangzheng_shixi_name">
         <br>
-        <script>
-            function TanChuan()
-            {
-                alert('提交成功')
-            }
-        </script>
-        <input type="submit" onclick="TanChuan()">
+        <script src="index.js"></script>
+        <input type="submit" onclick="TiJiao()">
         <br>
         <a href="javascript:history.back(-1)">
             <button>返回</button>           <!--返回键-->

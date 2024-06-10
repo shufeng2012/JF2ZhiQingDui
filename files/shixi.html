@@ -7,19 +7,14 @@
     <body>
         <h1>新增实习</h1>
         <h2>请填写以下信息</h2>
-        实习队员班级：<input type="text">
-        实习队员姓名：<input type="text">
+        实习队员班级：<input type="text" id="shixi_duiyuan_class" placeholder="请输入实习班级">
+        实习队员姓名：<input type="text" id="shixi_duiyuan_name" placeholder="请输入实习姓名">
         <br>
-        导师班级：<input type="text">
-        导师姓名：<input type="text">
+        导师班级：<input type="text" id="shixi_daoshi_class" placeholder="请输入导师班级">
+        导师姓名：<input type="text" id="shixi_daoshi_name" placeholder="请输入导师姓名">
         <br>
-        <script>
-            function TanChuan()
-            {
-                alert('提交成功')
-            }
-        </script>
-        <input type="submit" onclick="TanChuan()">
+        <script src="index.js"></script>
+        <input type="submit" onclick="TiJiao()">
         <br>
         <a href="javascript:history.back(-1)">
             <button>返回</button>           <!--返回键-->
