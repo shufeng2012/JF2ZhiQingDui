@@ -17,10 +17,10 @@ function ShiXi()
 }
 
 //转正队员
-function ZhuanZheng()
+function ZhuangZheng()
 {
     //修改
-    alert('修改成功');
+    alert('修改成功！');
 }
 
 //踢出队员
