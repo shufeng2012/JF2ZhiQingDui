@@ -5,29 +5,57 @@ JavaScript函数
 //加入执勤队
 function JiaRu()
 {
-    //录入
-    alert('加入成功！');
+    if (jiaru_class || jiaru_name == null)
+    {
+        alert('请填写完毕（有空值）');
+    }
+    else
+    {
+        //录入
+        alert('加入成功！');
+    }
 }
 
 //添加实习
 function ShiXi()
 {
-    //修改
-    alert('更改成功！');
+    if (shixi_duiyuan_class || shixi_duiyuan_name || shixi_daoshi_class || shixi_daoshi_name == null)
+    {
+        alert('请填写完毕（有空值）');
+    }
+    else
+    {
+        //录入
+        alert('修改成功！');
+    }
 }
 
 //转正队员
 function ZhuangZheng()
 {
-    //修改
-    alert('修改成功！');
+    if (zhuangzheng_duiyuan_class || zhuangzheng_duiyuan_name || zhuangzheng_daoshi_class ||zhuangzheng_daoshi_name == null)
+    {
+        alert('请填写完毕（有空值）');
+    }
+    else
+    {
+        //录入
+        alert('修改成功！');
+    }
 }
 
 //踢出队员
 function TiChu()
 {
-    //修改
-    alert('成功踢出！');
+    if (tichu_class || tichu_name == null)
+    {
+        alert('请填写完毕（有空值）');
+    }
+    else
+    {
+        //录入
+        alert('修改成功！');
+    }
 }
 
 //查看队员
