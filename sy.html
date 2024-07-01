@@ -7,17 +7,29 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
-        document.onclick=function()
-            {
-                var obj = event.srcElement;
-                if(obj.type == "button")
-                {
-                    alert('提交成功');
-
-                }
-            }
-    </script>
-    <button type="submit"></button>
+    <div>
+        <button id="add">添加学生</button>
+      </div>
+      <table class="table" cellspacing="1">
+        <thead>
+          <tr><th></th><th>ID号</th><th>姓名</th><th>年龄</th><th>学号</th><th>编辑</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <p><input type="checkbox" id="checkall">全选 <button id="delall">批量删除</button></p>
+      <div class="modal">
+        <div>
+          <p>姓名: <input ></p>
+          <p>年龄: <input type="number" ></p>
+          <p>学号: <input type="number" ></p>
+          <p>id号: <input type="number" ></p>
+          <p>
+            <button>确定</button>
+            <button>取消</button>
+          </p>
+        </div>
+      </div>
+  <script src="sy.js"></script>
+  <style src="sy.css"></style>
 </body>
 </html>

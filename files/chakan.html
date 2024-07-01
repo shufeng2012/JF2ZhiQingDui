@@ -3,11 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <title>查看队员</title>
+        <script src="index.js"></script>
     </head>
     <body>
         <h1>查看队员</h1>
         <h2>以下是执勤队全部队员</h2>
-        <script src="index.js"></script>
+        <br>
+        <button onclick="ChaKan()">点击此处查看</button>
+        <table class="table" cellspacing="1">
+            <thead>
+                <tr><th></th><th>班级</th><th>姓名</th><th>状态</th><th>导师班级</th><th>导师姓名</th></tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        
         <a href="javascript:history.back(-1)">
             <button>返回</button>           <!--返回键-->
         </a>

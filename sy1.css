@@ -1,0 +1,25 @@
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+  }
+  .modal>div{
+    padding: 15px;
+    width: 350px;
+    height: 220px;
+    background-color: #fff;
+    text-align: center;
+  }
+  .table{
+    background-color: gray;
+  }
+  .table tr>td, .table tr>th{
+    padding: 5px 15px;
+    background-color: #fff;
+  }
